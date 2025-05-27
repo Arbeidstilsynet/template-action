@@ -1,6 +1,7 @@
 # Arbeidstilsynet/action-noop
 
 > **Note:** This is a template repository for creating simple composite GitHub Actions.
+>
 > After creating the new repo you should enable "Allow auto-merge" and "Automatically delete head branches" in Settings -> General -> Pull Requests.
 
 A no-op GitHub Action that echoes inputs and sets outputs.
