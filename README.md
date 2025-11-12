@@ -6,12 +6,6 @@
 
 A no-op GitHub Action that echoes inputs and sets outputs.
 
-## Versioning
-
-This repository uses a simple versioning system based on the `VERSION` file.
-When you update the `VERSION` file and push to `main`, a Git tag with that version is created or updated automatically by the workflow.
-If you have to make breaking changes to the action, bump the version.
-
 ## Requirements
 
 - None
@@ -57,3 +51,9 @@ jobs:
           echo "Output one: ${{ steps.noop.outputs.output-one }}"
           echo "Output two: ${{ steps.noop.outputs.output-two }}"
 ```
+
+## Versioning
+
+This repository uses a simple versioning system based on the `VERSION` file.
+When you update the `VERSION` file and push to `main`, a Git tag with that version is created or updated automatically by the workflow.
+If you make breaking changes to the action, bump the version and update `CHANGELOG.md`.
